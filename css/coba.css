@@ -118,6 +118,17 @@ input, textarea{
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
+    border-radius: 20px;
+  }
+
+  .card:hover {
+    top: -3px;
+    left: -3px;
+    box-shadow: 3px 3px 15px 0px rgba(82, 82, 82, 0.85);
+  }
+
+  .card p {
+    font-family: 'Segoe UI';
   }
 
   .container {
